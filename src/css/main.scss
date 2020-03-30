@@ -55,22 +55,3 @@ nav {
 	width: 8rem;
 	background: teal;
 }
-
-section {
-	margin: 2rem 0 1rem 0;
-	cursor: pointer;
-	background: white;
-	border-bottom: none;
-}
-
-.project-wrapper {
-	border-bottom: 0.25rem solid transparent;
-}
-
-.project-wrapper:hover {
-	border-bottom: 0.25rem solid rgba(0, 0, 0, 0.2);
-}
-
-.project-wrapper.expanded {
-	border-bottom: 0.25rem solid rgba(0, 0, 0, 0.2);
-}
