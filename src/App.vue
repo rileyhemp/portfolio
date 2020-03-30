@@ -42,7 +42,70 @@ export default {
 					description: "Spotify playlists on steroids",
 					image: "https://via.placeholder.com/300x300.png/09f/fff",
 					about:
-						"Adding an image file extension will render the image in the correct format. JPG & JPEG are identical. The image extension can go at the end of any option in the URL, like this"
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
+					tech: ["vue", "node", "express", "sql"],
+					link: "http://run-bpm.web.app",
+					github: "https://github.com/rileyhemp/run-bpm"
+				},
+				{
+					name: "South Park Pinball",
+					description: "Spotify playlists on steroids",
+					image: "https://via.placeholder.com/300x300.png/09f/fff",
+					about:
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
+					tech: ["vue", "node", "express", "sql"],
+					link: "http://run-bpm.web.app",
+					github: "https://github.com/rileyhemp/run-bpm"
+				},
+				{
+					name: "Seasonal.cooking",
+					description: "Spotify playlists on steroids",
+					image: "https://via.placeholder.com/300x300.png/09f/fff",
+					about:
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
+					tech: ["vue", "node", "express", "sql"],
+					link: "http://run-bpm.web.app",
+					github: "https://github.com/rileyhemp/run-bpm"
+				},
+				{
+					name: "Snoogle",
+					description: "Spotify playlists on steroids",
+					image: "https://via.placeholder.com/300x300.png/09f/fff",
+					about:
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
+					tech: ["vue", "node", "express", "sql"],
+					link: "http://run-bpm.web.app",
+					github: "https://github.com/rileyhemp/run-bpm"
+				},
+				{
+					name: "Cyberpunk 2077",
+					description: "Spotify playlists on steroids",
+					image: "https://via.placeholder.com/300x300.png/09f/fff",
+					about:
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
+					tech: ["vue", "node", "express", "sql"],
+					link: "http://run-bpm.web.app",
+					github: "https://github.com/rileyhemp/run-bpm"
+				},
+				{
+					name: "Animated Poster",
+					description: "Spotify playlists on steroids",
+					image: "https://via.placeholder.com/300x300.png/09f/fff",
+					about:
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
+					tech: ["vue", "node", "express", "sql"],
+					link: "http://run-bpm.web.app",
+					github: "https://github.com/rileyhemp/run-bpm"
+				},
+				{
+					name: "Gifted",
+					description: "Spotify playlists on steroids",
+					image: "https://via.placeholder.com/300x300.png/09f/fff",
+					about:
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
+					tech: ["vue", "node", "express", "sql"],
+					link: "http://run-bpm.web.app",
+					github: "https://github.com/rileyhemp/run-bpm"
 				}
 			]
 		};
