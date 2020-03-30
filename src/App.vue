@@ -4,15 +4,17 @@
 			<div class="inner-wrapper">
 				<nav>
 					<ul>
-						<a :class="projectsPage ? null : 'current'" href="#">About</a>
-					</ul>
-					<ul>
-						<a :class="projectsPage ? 'current' : null" href="#">Projects</a>
+						<li>
+							<a :class="projectsPage ? 'current' : null" @click="projectsPage = true" href="#">Projects</a>
+						</li>
+						<li>
+							<a :class="projectsPage ? null : 'current'" @click="projectsPage = false" href="#">About</a>
+						</li>
 					</ul>
 				</nav>
 				<header>
 					<h1>Hello World</h1>
-					<h2>I'm a frontend engineer for-hire</h2>
+					<h2>I'm a frontend developer for-hire</h2>
 					<p>I love writing web apps that provide practical solutions to real&#8209;world problems.</p>
 				</header>
 				<div class="spacer" />

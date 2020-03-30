@@ -39,7 +39,6 @@ article {
 img {
 	max-width: 20rem;
 	object-fit: cover;
-	padding-bottom: 0.75rem;
 	border-radius: 4px;
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
