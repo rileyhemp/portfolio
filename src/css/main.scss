@@ -1,5 +1,5 @@
+@import "./reset.css";
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap");
-
 body {
 	font-family: "Source Sans Pro", sans-serif;
 }
@@ -7,19 +7,54 @@ body {
 h1 {
 	font-size: 3rem;
 	font-weight: 700;
+	margin-bottom: 2rem;
 }
 
 h2 {
 	font-size: 2.25rem;
+	line-height: 2.75rem;
 	font-weight: 700;
+	margin-bottom: 1rem;
 }
 
 h3 {
-	font-size: 2.25rem;
-	font-weight: 400;
+	font-size: 1.75rem;
+	font-weight: 700;
 }
 
 p {
 	font-size: 1.5rem;
+	line-height: 1.75rem;
 	font-weight: 400;
+	margin-bottom: 1rem;
+}
+
+.body-1 {
+	font-size: 1rem;
+}
+
+.outer-wrapper {
+	padding: 1rem;
+	background: #5dd3c9;
+}
+
+.inner-wrapper {
+	padding: 1rem;
+	background: white;
+	border-radius: 5px;
+}
+
+nav {
+	margin-bottom: 4rem;
+}
+
+.spacer {
+	margin: 2rem 0;
+	height: 0.75rem;
+	width: 8rem;
+	background: teal;
+}
+
+article {
+	margin: 2rem 0;
 }
