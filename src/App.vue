@@ -40,7 +40,7 @@ export default {
 				{
 					name: "Run BPM",
 					description: "Spotify playlists on steroids",
-					image: "../src/assets/project-images/gifted.png",
+					image: "../img/project-images/run-bpm.png",
 					about:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
 					tech: ["vue", "node", "sql"],
@@ -50,7 +50,7 @@ export default {
 				{
 					name: "South Park Pinball",
 					description: "Playable Javascript pinball simulator in HTML5 Canvas",
-					image: "https://via.placeholder.com/300x300.png/09f/fff",
+					image: "../img/project-images/southpark-pinball.png",
 					about:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
 					tech: ["phaser", "matter", "js", "html"],
@@ -60,7 +60,7 @@ export default {
 				{
 					name: "Seasonal.cooking",
 					description: "A lightweight PWA for finding what's in season and what to eat with it",
-					image: "https://via.placeholder.com/300x300.png/09f/fff",
+					image: "../img/project-images/seasonal-cooking.png",
 					about:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
 					tech: ["react", "styled", "scss"],
@@ -70,7 +70,7 @@ export default {
 				{
 					name: "Snoogle",
 					description: "It's Google for Reddit",
-					image: "https://via.placeholder.com/300x300.png/09f/fff",
+					image: "../img/project-images/snoogle.png",
 					about:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
 					tech: ["react-native", "node", "redux", "styled"],
@@ -80,7 +80,7 @@ export default {
 				{
 					name: "Cyberpunk 2077",
 					description: "Adventures in CSS Grid",
-					image: "https://via.placeholder.com/300x300.png/09f/fff",
+					image: "../img/project-images/cyberpunk.png",
 					about:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
 					tech: ["html", "scss", "js", "gsap"],
@@ -90,7 +90,7 @@ export default {
 				{
 					name: "Animated Poster",
 					description: "Vaporwave inspired animations with HTML and CSS.",
-					image: "https://via.placeholder.com/300x300.png/09f/fff",
+					image: "../img/project-images/animated-poster.png",
 					about:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
 					tech: ["html", "css", "js"],
@@ -100,7 +100,7 @@ export default {
 				{
 					name: "Gifted",
 					description: "Schedule, track, and order gifts for friends' birthdays",
-					image: "https://via.placeholder.com/300x300.png/09f/fff",
+					image: "../img/project-images/gifted.png",
 					about:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
 					tech: ["react", "styled"],

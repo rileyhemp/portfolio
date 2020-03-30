@@ -45,11 +45,14 @@ article {
 	transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 article.expanded {
-	height: 18rem;
+	height: 20rem;
 }
 img {
-	max-width: 300px;
+	max-width: 20rem;
 	object-fit: cover;
 	padding-bottom: 0.75rem;
+}
+.project-description {
+	padding-right: 1rem;
 }
 </style>
