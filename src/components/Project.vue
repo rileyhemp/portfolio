@@ -1,12 +1,15 @@
 <template>
 	<article>
-		<img :src="project.image" alt="" />
+		<img class="project-image" :src="project.image" alt="" />
 		<div class="project-description">
 			<h3>{{ project.name }}</h3>
 			<p class="body-1">{{ project.description }}</p>
 			<p class="body-1">
 				{{ project.about }}
 			</p>
+			<div class="tech">
+				<img v-for="tech in project.tech" :key="tech.index" :src="'../img/tech-logos/' + tech + '.png'" />
+			</div>
 			<div class="link-container">
 				<a :href="project.link">View Project</a>
 				<a v-if="project.github" :href="project.github">Github</a>
@@ -36,7 +39,7 @@ article {
 	padding: 2.5rem 0 1.75rem 0;
 	border-bottom: 5px solid rgba(0, 0, 0, 0.2);
 }
-img {
+.project-image {
 	max-width: 20rem;
 	object-fit: cover;
 	border-radius: 4px;
@@ -51,5 +54,8 @@ img {
 .link-container {
 	display: flex;
 	justify-content: flex-start;
+}
+.tech {
+	display: flex;
 }
 </style>

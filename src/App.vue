@@ -3,6 +3,7 @@
 		<div class="outer-wrapper">
 			<div class="inner-wrapper">
 				<nav>
+					<a href="">rileyhemp@gmail.com</a>
 					<ul>
 						<li>
 							<a :class="projectsPage ? 'current' : null" @click="projectsPage = true" href="#">Projects</a>
@@ -54,7 +55,7 @@ export default {
 					image: "../img/project-images/seasonal-cooking.png",
 					about:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
-					tech: ["react", "styled", "scss"],
+					tech: ["react", "styled", "sass"],
 					link: "http://seasonal-cooking-268018.web.app",
 					github: "https://github.com/rileyhemp/seasonal-cooking"
 				},
@@ -84,7 +85,7 @@ export default {
 					image: "../img/project-images/cyberpunk.png",
 					about:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
-					tech: ["html", "scss", "js", "gsap"],
+					tech: ["html", "sass", "js", "gsap"],
 					link: "http://cyberpunk.web.app",
 					github: null
 				},
