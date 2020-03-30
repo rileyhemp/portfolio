@@ -40,7 +40,7 @@ export default {
 				{
 					name: "Run BPM",
 					description: "Spotify playlists on steroids",
-					image: "https://via.placeholder.com/300x300.png/09f/fff",
+					image: "../src/assets/project-images/gifted.png",
 					about:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
 					tech: ["vue", "node", "sql"],
