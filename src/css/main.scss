@@ -14,21 +14,22 @@ h2 {
 	font-size: 2.25rem;
 	line-height: 2.75rem;
 	font-weight: 700;
-	margin-bottom: 1rem;
 }
 
 h3 {
 	font-size: 1.75rem;
 	font-weight: 700;
+	letter-spacing: 1px;
 }
 
 p {
 	font-size: 1.5rem;
 	line-height: 1.75rem;
 	font-weight: 400;
+	margin-top: 2rem;
 	margin-bottom: 1rem;
 }
-nav > ul > a {
+ul > a {
 	padding: 0;
 	margin-left: 2rem;
 	text-align: right;
@@ -55,10 +56,12 @@ ul {
 nav {
 	display: flex;
 	flex-direction: row-reverse;
+	margin-bottom: 5rem;
 }
 
 .body-1 {
 	font-size: 1rem;
+	margin-top: 0;
 }
 
 .outer-wrapper {
@@ -73,13 +76,9 @@ nav {
 	min-height: 100vh;
 }
 
-nav {
-	margin-bottom: 4rem;
-}
-
 .spacer {
-	margin: 2rem 0;
-	height: 0.75rem;
+	margin: 2.25rem 0 3rem 0;
+	height: 0.5rem;
 	width: 8rem;
 	background: teal;
 }

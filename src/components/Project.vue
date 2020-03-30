@@ -29,7 +29,7 @@ export default {
 
 <style scoped>
 article {
-	overflow: hidden;
+	overflow: visible;
 	display: flex;
 	flex-direction: row-reverse;
 	transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -40,7 +40,10 @@ img {
 	max-width: 20rem;
 	object-fit: cover;
 	padding-bottom: 0.75rem;
+	border-radius: 4px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
+
 .project-description {
 	padding-right: 1rem;
 	display: flex;
