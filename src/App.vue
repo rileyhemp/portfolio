@@ -20,7 +20,7 @@
 				<div class="spacer" />
 				<main>
 					<h2>Latest Projects</h2>
-					<dev-project v-for="project in projects" :key="project.index" :name="project.name" :description="project.description" />
+					<dev-project v-for="project in projects" :key="project.index" :project="project" />
 				</main>
 			</div>
 		</div>
@@ -39,7 +39,10 @@ export default {
 			projects: [
 				{
 					name: "Run BPM",
-					description: "Unlocking Spotify's hidden power"
+					description: "Spotify playlists on steroids",
+					image: "https://via.placeholder.com/300x300.png/09f/fff",
+					about:
+						"Adding an image file extension will render the image in the correct format. JPG & JPEG are identical. The image extension can go at the end of any option in the URL, like this"
 				}
 			]
 		};
