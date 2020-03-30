@@ -7,6 +7,10 @@
 			<p class="body-1">
 				{{ project.about }}
 			</p>
+			<div class="link-container">
+				<a :href="project.link">View Project</a>
+				<a v-if="project.github" :href="project.github">Github</a>
+			</div>
 		</div>
 	</article>
 </template>
@@ -30,7 +34,7 @@ article {
 	flex-direction: row-reverse;
 	transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
 	padding: 2.5rem 0 1.75rem 0;
-	border-top: 5px solid rgba(0, 0, 0, 0.2);
+	border-bottom: 5px solid rgba(0, 0, 0, 0.2);
 }
 img {
 	max-width: 20rem;
@@ -41,5 +45,9 @@ img {
 	padding-right: 1rem;
 	display: flex;
 	flex-direction: column;
+}
+.link-container {
+	display: flex;
+	justify-content: flex-start;
 }
 </style>

@@ -4,22 +4,20 @@
 			<div class="inner-wrapper">
 				<nav>
 					<ul>
-						<a href="#"></a
-						>Projects
+						<a :class="projectsPage ? null : 'current'" href="#">About</a>
 					</ul>
 					<ul>
-						<a href="#"></a
-						>About
+						<a :class="projectsPage ? 'current' : null" href="#">Projects</a>
 					</ul>
 				</nav>
 				<header>
-					<h1>Hi, I'm Riley</h1>
+					<h1>Hello World</h1>
 					<h2>I'm a frontend engineer for-hire</h2>
 					<p>I love writing web apps that provide practical solutions to real&#8209;world problems.</p>
 				</header>
 				<div class="spacer" />
 				<main>
-					<h2>Latest Projects</h2>
+					<h2>Show me the work</h2>
 					<dev-project v-for="project in projects" :key="project.index" :project="project" />
 				</main>
 			</div>
@@ -36,6 +34,7 @@ export default {
 	},
 	data: function() {
 		return {
+			projectsPage: true,
 			projects: [
 				{
 					name: "Run BPM",
@@ -46,16 +45,6 @@ export default {
 					tech: ["vue", "node", "sql"],
 					link: "http://run-bpm.web.app",
 					github: "https://github.com/rileyhemp/run-bpm"
-				},
-				{
-					name: "South Park Pinball",
-					description: "Playable Javascript pinball simulator in HTML5 Canvas",
-					image: "../img/project-images/southpark-pinball.png",
-					about:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
-					tech: ["phaser", "matter", "js", "html"],
-					link: "http://southpark-pinball.web.app",
-					github: "https://github.com/rileyhemp/Southpark-Pinball"
 				},
 				{
 					name: "Seasonal.cooking",
@@ -78,8 +67,18 @@ export default {
 					github: "https://github.com/rileyhemp/snoogle"
 				},
 				{
+					name: "South Park Pinball",
+					description: "Playable Javascript pinball simulator in HTML5 Canvas",
+					image: "../img/project-images/southpark-pinball.png",
+					about:
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
+					tech: ["phaser", "matter", "js", "html"],
+					link: "http://southpark-pinball.web.app",
+					github: "https://github.com/rileyhemp/Southpark-Pinball"
+				},
+				{
 					name: "Cyberpunk 2077",
-					description: "Adventures in CSS Grid",
+					description: "Adventures in CSS grid",
 					image: "../img/project-images/cyberpunk.png",
 					about:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
@@ -96,17 +95,17 @@ export default {
 					tech: ["html", "css", "js"],
 					link: "http://animated-poster.web.app",
 					github: null
-				},
-				{
-					name: "Gifted",
-					description: "Schedule, track, and order gifts for friends' birthdays",
-					image: "../img/project-images/gifted.png",
-					about:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
-					tech: ["react", "styled"],
-					link: "gift-scheduler.web.app",
-					github: "https://github.com/rileyhemp/gift-scheduler"
 				}
+				// {
+				// 	name: "Gifted",
+				// 	description: "Schedule, track, and order gifts for friends' birthdays",
+				// 	image: "../img/project-images/gifted.png",
+				// 	about:
+				// 		"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
+				// 	tech: ["react", "styled"],
+				// 	link: "gift-scheduler.web.app",
+				// 	github: "https://github.com/rileyhemp/gift-scheduler"
+				// }
 			]
 		};
 	}
