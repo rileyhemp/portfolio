@@ -1,5 +1,13 @@
 <template>
-	<div class="project-wrapper" :class="collapsed ? null : 'expanded'" @click="() => (collapsed = !collapsed)">
+	<div
+		class="project-wrapper"
+		:class="collapsed ? null : 'expanded'"
+		@click="
+			() => {
+				collapsed = !collapsed;
+			}
+		"
+	>
 		<section>
 			<h3>{{ project.name }}</h3>
 			<p class="body-1">{{ project.description }}</p>
@@ -23,7 +31,8 @@ export default {
 			project: this.$attrs.project,
 			collapsed: true
 		};
-	}
+	},
+	methods: {}
 };
 </script>
 

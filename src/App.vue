@@ -49,63 +49,63 @@ export default {
 				},
 				{
 					name: "South Park Pinball",
-					description: "Spotify playlists on steroids",
+					description: "Pure Javascript pinball simulator in HTML5 Canvas",
 					image: "https://via.placeholder.com/300x300.png/09f/fff",
 					about:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
-					tech: ["vue", "node", "express", "sql"],
-					link: "http://run-bpm.web.app",
-					github: "https://github.com/rileyhemp/run-bpm"
+					tech: ["phaser", "matter", "js", "html"],
+					link: "http://southpark-pinball.web.app",
+					github: "https://github.com/rileyhemp/Southpark-Pinball"
 				},
 				{
 					name: "Seasonal.cooking",
-					description: "Spotify playlists on steroids",
+					description: "A lightweight PWA for finding what's in season and what to eat with it",
 					image: "https://via.placeholder.com/300x300.png/09f/fff",
 					about:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
-					tech: ["vue", "node", "express", "sql"],
-					link: "http://run-bpm.web.app",
-					github: "https://github.com/rileyhemp/run-bpm"
+					tech: ["react", "styled", "scss"],
+					link: "http://seasonal-cooking-268018.web.app",
+					github: "https://github.com/rileyhemp/seasonal-cooking"
 				},
 				{
 					name: "Snoogle",
-					description: "Spotify playlists on steroids",
+					description: "It's Google for Reddit",
 					image: "https://via.placeholder.com/300x300.png/09f/fff",
 					about:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
-					tech: ["vue", "node", "express", "sql"],
-					link: "http://run-bpm.web.app",
-					github: "https://github.com/rileyhemp/run-bpm"
+					tech: ["react-native", "node", "redux", "styled"],
+					link: "#",
+					github: "https://github.com/rileyhemp/snoogle"
 				},
 				{
 					name: "Cyberpunk 2077",
-					description: "Spotify playlists on steroids",
+					description: "Adventures in CSS Grid",
 					image: "https://via.placeholder.com/300x300.png/09f/fff",
 					about:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
-					tech: ["vue", "node", "express", "sql"],
-					link: "http://run-bpm.web.app",
-					github: "https://github.com/rileyhemp/run-bpm"
+					tech: ["html", "scss", "js", "gsap"],
+					link: "http://cyberpunk.web.app",
+					github: null
 				},
 				{
 					name: "Animated Poster",
-					description: "Spotify playlists on steroids",
+					description: "Vaporwave inspired poster with HTML and CSS. Not kind to retina displays.",
 					image: "https://via.placeholder.com/300x300.png/09f/fff",
 					about:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
 					tech: ["vue", "node", "express", "sql"],
-					link: "http://run-bpm.web.app",
-					github: "https://github.com/rileyhemp/run-bpm"
+					link: "http://animated-poster.web.app",
+					github: null
 				},
 				{
 					name: "Gifted",
-					description: "Spotify playlists on steroids",
+					description: "Keep track of your friends' birthdays and schedule deliveries in advance",
 					image: "https://via.placeholder.com/300x300.png/09f/fff",
 					about:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
 					tech: ["vue", "node", "express", "sql"],
-					link: "http://run-bpm.web.app",
-					github: "https://github.com/rileyhemp/run-bpm"
+					link: "gift-scheduler.web.app",
+					github: "https://github.com/rileyhemp/gift-scheduler"
 				}
 			]
 		};
