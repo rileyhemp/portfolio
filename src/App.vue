@@ -43,13 +43,13 @@ export default {
 					image: "https://via.placeholder.com/300x300.png/09f/fff",
 					about:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
-					tech: ["vue", "node", "express", "sql"],
+					tech: ["vue", "node", "sql"],
 					link: "http://run-bpm.web.app",
 					github: "https://github.com/rileyhemp/run-bpm"
 				},
 				{
 					name: "South Park Pinball",
-					description: "Pure Javascript pinball simulator in HTML5 Canvas",
+					description: "Playable Javascript pinball simulator in HTML5 Canvas",
 					image: "https://via.placeholder.com/300x300.png/09f/fff",
 					about:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
@@ -89,21 +89,21 @@ export default {
 				},
 				{
 					name: "Animated Poster",
-					description: "Vaporwave inspired poster with HTML and CSS. Not kind to retina displays.",
+					description: "Vaporwave inspired animations with HTML and CSS.",
 					image: "https://via.placeholder.com/300x300.png/09f/fff",
 					about:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
-					tech: ["vue", "node", "express", "sql"],
+					tech: ["html", "css", "js"],
 					link: "http://animated-poster.web.app",
 					github: null
 				},
 				{
 					name: "Gifted",
-					description: "Keep track of your friends' birthdays and schedule deliveries in advance",
+					description: "Schedule, track, and order gifts for friends' birthdays",
 					image: "https://via.placeholder.com/300x300.png/09f/fff",
 					about:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
-					tech: ["vue", "node", "express", "sql"],
+					tech: ["react", "styled"],
 					link: "gift-scheduler.web.app",
 					github: "https://github.com/rileyhemp/gift-scheduler"
 				}
