@@ -45,6 +45,15 @@ a {
 	padding-right: 1rem;
 }
 
+p > a {
+	font-size: inherit;
+	font-weight: inherit;
+	text-transform: inherit;
+	letter-spacing: inherit;
+	text-decoration: underline;
+	padding: 0;
+}
+
 a.current {
 	border-bottom: 3px solid orangered;
 }

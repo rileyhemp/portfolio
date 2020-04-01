@@ -44,9 +44,10 @@ export default {
 					description: "Spotify playlists on steroids",
 					image: "../img/project-images/run-bpm.png",
 					about:
-						"When I run, I take about 160 steps a minute. And I always wanted a tool that let me pick music around that tempo. So this year, I made one. Import hundreds of songs, and filter down by energy level, tempo, positivity, and more. Vue, Express and Sqlite",
+						"Run BPM leverages Spotify’s internal audio analysis tools to create custom playlists at specific tempos. This lets runners like myself choose music that's in sync with our desired steps-per-minute. You can also filter by other features, like energy level, accousticness, danceability and more. ",
 					tech: ["vue", "node", "sql"],
-					link: "http://run-bpm.web.app",
+					timeline: "8 weeks",
+					link: "http://runbpm.app",
 					github: "https://github.com/rileyhemp/run-bpm"
 				},
 				{
@@ -54,8 +55,14 @@ export default {
 					description: "A lightweight PWA for finding what's in season and what to eat with it",
 					image: "../img/project-images/seasonal-cooking.png",
 					about:
-						"Ever walk into a store and not know what’s in season? Seasonal.cooking can run offline and tells you exactly what’s fresh. Plus, it pairs with data from the Flavor Bible so you’ll never wonder what goes with what. Also a good excuse to learn about progressive web apps.",
+						"Even the best cooks forget what’s in season, and there aren’t any good, mobile-friendly sites to reference in store. Season.cooking presents data found in The Flavor Bible as a progressive web app for quick reference and offline viewing.",
 					tech: ["react", "styled", "sass"],
+					collaborators: {
+						name: "Leah Hale",
+						role: "Illustrations",
+						portfolio: ""
+					},
+					timeline: "4 weeks",
 					link: "http://seasonal-cooking-268018.web.app",
 					github: "https://github.com/rileyhemp/seasonal-cooking"
 				},
@@ -64,7 +71,7 @@ export default {
 					description: "It's Google for Reddit",
 					image: "../img/project-images/snoogle.png",
 					about:
-						"I built this app in react native to simplify my lifelong habbit of appending “site:reddit.com” to my google searches. You really can’t trust blogs these days. What makes Snoogle special is that it searches through over 100 results and displays the posts with the most comments first, right in the app.",
+						"I have a habbit of appending “site:reddit.com” to my google searches so I built Snoogle in React Native to do just that, with a few added features. First, it searches through 100 results and displays the most-commented posts first. Second, you can view results right in the app so there’s no need to toggle between your Reddit and Google clients.",
 					tech: ["react-native", "node", "redux", "styled"],
 					link: "",
 					github: "https://github.com/rileyhemp/snoogle"
@@ -74,7 +81,7 @@ export default {
 					description: "Playable Javascript pinball simulator in HTML5 Canvas",
 					image: "../img/project-images/southpark-pinball.png",
 					about:
-						"Hands down the most frusterating and educational project i’ve ever worked on. Fully playable and pretty darn realistic pinball sim built with Phaser 3 and Matter.js. Several hundred hours over 8 weeks and it’s still buggy. Never again.",
+						"I learned more from this project then any other. Previously, my Javascript had been very procedural, repetative, and just bad overall. This forced me to learn (and love) Javascript classes, and gain a deeper appreciation and understanding of OOP. ",
 					tech: ["phaser", "js", "html"],
 					link: "http://southpark-pinball.web.app",
 					github: "https://github.com/rileyhemp/Southpark-Pinball"
@@ -84,20 +91,29 @@ export default {
 					description: "Adventures in CSS grid",
 					image: "../img/project-images/cyberpunk.png",
 					about:
-						"Recreated an amazing design from Jesus Lebarca with vanilla everything. Relied heavily on CSS grid to handle the responsivness.",
+						"Built out an amazing design from Jesus Lebarca with plain HTML and CSS. This static site relies heavily on CSS grid to handle the responsivness, and incorporates a number of GSAP animations. ",
+					collaborators: {
+						name: "Jesus Lebarca",
+						role: "Designer",
+						portfolio: "https://www.behance.net/jesuslabarca"
+					},
+					role: "Developer",
+					timeline: "1 week",
 					tech: ["html", "sass", "js"],
 					link: "http://cyberpunk.web.app",
-					github: null
+					github: "https://github.com/rileyhemp/Cyberpunk_2077"
 				},
 				{
 					name: "Animated Poster",
 					description: "Vaporwave inspired animations with HTML and CSS.",
 					image: "../img/project-images/animated-poster.png",
 					about:
-						"Great Gatsby goes back to the future. Designed and created this whole thing in only CSS, HTML and Javascript. Goes well with synthwave. Goes terrible on retina displays.",
+						"Great Gatsby goes back to the future animated poster. Designed and built with only CSS, HTML and Javascript. Chugs pretty hard on a retina display, so be warned. ",
 					tech: ["html", "sass", "js"],
+					role: "Solo project",
+					timeline: "1 week",
 					link: "http://animated-poster.web.app",
-					github: null
+					github: "https://github.com/rileyhemp/Animated_Poster"
 				}
 				// {
 				// 	name: "Gifted",

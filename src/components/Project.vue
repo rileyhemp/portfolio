@@ -7,9 +7,8 @@
 			<div class="tech">
 				<img class="tech-logo" v-for="tech in project.tech" :key="tech.index" :src="'../img/tech-logos/' + tech + '.png'" />
 			</div>
-			<p class="body-1">
-				{{ project.about }}
-			</p>
+			<p class="body-1">{{ project.about }}</p>
+			<p class="body-1" v-if="project.collaborators">{{ project.collaborators.role + ": " + project.collaborators.name }}</p>
 			<div class="link-container">
 				<a v-if="project.link" :href="project.link">View Project</a>
 				<a v-if="project.github" :href="project.github">Github</a>
