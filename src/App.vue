@@ -74,6 +74,8 @@ export default {
 						"I have a habbit of appending “site:reddit.com” to my google searches so I built Snoogle in React Native to do just that, with a few added features. First, it searches through 100 results and displays the most-commented posts first. Second, you can view results right in the app so there’s no need to toggle between your Reddit and Google clients.",
 					tech: ["react-native", "node", "redux", "styled"],
 					link: "",
+					download: "https://elasticbeanstalk-us-east-2-652389813077.s3.us-east-2.amazonaws.com/snoogle.apk",
+					demo: "403154292",
 					github: "https://github.com/rileyhemp/snoogle"
 				},
 				{
