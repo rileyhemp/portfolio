@@ -4,13 +4,21 @@
 			<main class="main-container">
 				<nav>
 					<ul>
-						<li><a>work</a></li>
-						<li><a>about</a></li>
+						<li><a @click="() => this.scrollWork()">work</a></li>
+						<li><a @click="() => this.scrollAbout()">about</a></li>
 						<li><a href="mailto:rileyhemp@gmail.com">contact</a></li>
 					</ul>
 				</nav>
 				<home-page />
 				<about-page />
+				<footer>
+					<ul>
+						<li><a :href="'https://github.com/rileyhemp'">Resume</a></li>
+						<li><a :href="'https://github.com/rileyhemp'">Github</a></li>
+						<li><a :href="'https://github.com/rileyhemp'">Linked In</a></li>
+					</ul>
+					<a @click="() => this.scrollHome()">Back to top</a>
+				</footer>
 			</main>
 		</div>
 	</div>
@@ -24,10 +32,31 @@ export default {
 	components: {
 		"home-page": Home,
 		"about-page": About
+	},
+	methods: {
+		scrollWork() {
+			window.scrollTo({
+				top: 427,
+				left: 0,
+				behavior: "smooth"
+			});
+		},
+		scrollAbout() {
+			window.scrollTo({
+				top: 3000,
+				left: 0,
+				behavior: "smooth"
+			});
+		},
+		scrollHome() {
+			window.scrollTo({
+				top: 0,
+				left: 0,
+				behavior: "smooth"
+			});
+		}
 	}
 };
-// 427
-// 2225
 </script>
 
 <style>

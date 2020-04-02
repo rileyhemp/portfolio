@@ -10,11 +10,6 @@
 					favorite beer is all of them, and I'm a champion of the oxford comma.
 				</p>
 				<p class="body-1">Currently living in Atlanta with my fiancée and dog. (He's a really good boy)</p>
-				<div class="link-container">
-					<a :href="'https://github.com/rileyhemp'">Resume</a>
-					<a :href="'https://github.com/rileyhemp'">Github</a>
-					<a :href="'https://github.com/rileyhemp'">Linked In</a>
-				</div>
 			</div>
 			<img src="../../public/img/kat-and-riley.png" class="about-image" alt="Riley and Kat" />
 		</article>
@@ -30,6 +25,7 @@ export default {
 <style scoped>
 section {
 	margin-top: 2rem;
+	margin-bottom: 4rem;
 }
 .about {
 	display: flex;

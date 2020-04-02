@@ -37,6 +37,10 @@ ul > li > a {
 	text-align: right;
 	cursor: pointer;
 }
+footer > ul > li > a {
+	margin-left: 0;
+	margin-right: 1rem;
+}
 a {
 	text-transform: uppercase;
 	font-weight: 700;
@@ -46,6 +50,7 @@ a {
 	text-decoration: none;
 	line-height: 2rem;
 	padding-right: 1rem;
+	cursor: pointer;
 }
 
 p > a {
@@ -69,6 +74,11 @@ nav {
 	display: flex;
 	flex-direction: row;
 	margin-bottom: 2rem;
+	justify-content: space-between;
+}
+
+footer {
+	display: flex;
 	justify-content: space-between;
 }
 
