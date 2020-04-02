@@ -13,9 +13,11 @@
 				<about-page />
 				<footer>
 					<ul>
-						<li><a :href="'https://github.com/rileyhemp'">Resume</a></li>
+						<li>
+							<a target="_blank" :href="'https://drive.google.com/file/d/1qT-4eipWMavR3LVrgwmbeJsgX9p9TqJc/view?usp=sharing'">Resume</a>
+						</li>
 						<li><a :href="'https://github.com/rileyhemp'">Github</a></li>
-						<li><a :href="'https://github.com/rileyhemp'">Linked In</a></li>
+						<li><a :href="'https://www.linkedin.com/in/riley-hemphill-650924103/'">Linked In</a></li>
 					</ul>
 					<a @click="() => this.scrollHome()">Back to top</a>
 				</footer>
