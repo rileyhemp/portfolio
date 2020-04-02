@@ -3,18 +3,10 @@
 		<div class="outer-wrapper">
 			<div class="inner-wrapper">
 				<nav>
-					<a href="">rileyhemp@gmail.com</a>
-					<ul>
-						<li>
-							<a :class="$route.path === '/' ? 'current' : null" href="/">Projects</a>
-						</li>
-						<li>
-							<a :class="$route.path === '/about' ? 'current' : null" href="/about">About</a>
-						</li>
-					</ul>
+					<a href="mailto:rileyhemp@gmail.com">rileyhemp@gmail.com</a>
 				</nav>
-				<home-page v-if="$route.path === '/'" />
-				<about-page v-if="$route.path === '/about'" />
+				<home-page />
+				<about-page />
 			</div>
 		</div>
 	</div>

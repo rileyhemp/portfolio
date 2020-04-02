@@ -1,23 +1,26 @@
 <template>
-	<div>
-		<header>
-			<h1>Hi, I'm Riley</h1>
-		</header>
-		<div class="spacer" />
-		<main class="about">
+	<section>
+		<h2>About me</h2>
+		<article class="about">
 			<div>
-				<p>I've been called a workaholic but it's not true. I just like to do things properly.</p>
-				<p>
-					I've been a copywriter, a professional fiddle player, a line cook, and a door-to-door salesman. I bake sourdough when I'm
-					stressed, my favorite beer is all of them, and I'm a champion of the oxford comma.
+				<div class="spacer spacer-about" />
+				<p class="body-1">I'm a hard worker and enthusiastic learner who likes to do things properly.</p>
+				<p class="body-1">
+					I've been a copywriter, a door-to-door salesman, and played fiddle in a country band. I bake sourdough when I'm stressed, my
+					favorite beer is all of them, and I'm a champion of the oxford comma.
 				</p>
-				<p>Currently living in Atlanta with my fiancée and dog, Rocco.</p>
+				<p class="body-1">Currently living in Atlanta with my fiancée and dog. (He's a really good boy)</p>
+				<div class="link-container">
+					<a :href="'https://github.com/rileyhemp'">Resume</a>
+					<a :href="'https://github.com/rileyhemp'">Github</a>
+					<a :href="'https://github.com/rileyhemp'">Linked In</a>
+				</div>
 			</div>
 			<div class="image-container">
 				<img src="../../public/img/kat-and-riley.png" class="about-image" alt="Riley and Kat" />
 			</div>
-		</main>
-	</div>
+		</article>
+	</section>
 </template>
 
 <script>
@@ -27,22 +30,27 @@ export default {
 </script>
 
 <style scoped>
+section {
+	margin-top: 2rem;
+}
 .about {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column-reverse;
 	width: 100%;
 	box-sizing: border-box;
 	align-items: center;
 }
 .image-container {
 	display: flex;
-	margin-left: 2rem;
 }
 .about-image {
-	width: 30vw;
-	height: 30vw;
+	max-width: 20rem;
+	margin-top: 1rem;
 	object-fit: cover;
-	object-position: right;
-	border-radius: 50%;
+	border-radius: 4px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.spacer-about {
+	margin-bottom: 2rem;
 }
 </style>

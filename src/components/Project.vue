@@ -4,21 +4,27 @@
 			<button class="close-player" @click="showPlayer = false">X</button>
 			<vimeo-player class="vimeo-player" :video-id="project.demo" :player-height="650"></vimeo-player>
 		</div>
-		<img class="project-image" :src="project.image" alt="" />
+		<img class="project-image" :src="project.image" :alt="project.name" />
 		<div class="project-description">
 			<h3>{{ project.name }}</h3>
 			<p class="body-1 semi-bold">{{ project.description }}</p>
 			<div class="tech">
-				<img class="tech-logo" v-for="tech in project.tech" :key="tech.index" :src="'../img/tech-logos/' + tech + '.png'" />
+				<img
+					class="tech-logo"
+					v-for="tech in project.tech"
+					:key="tech.index"
+					:src="'../img/tech-logos/' + tech + '.png'"
+					:alt="tech + ' thumbnail'"
+				/>
 			</div>
 			<p class="body-1">{{ project.about }}</p>
 			<p class="body-1" v-if="project.collaborators">{{ project.collaborators.role + ": " + project.collaborators.name }}</p>
 
 			<div class="link-container">
-				<a v-if="project.link" :href="project.link">View Project</a>
-				<a v-if="project.demo" style="cursor:pointer" @click="showPlayer = true">View Demo</a>
-				<a v-if="project.download" :href="project.download">Download APK</a>
-				<a v-if="project.github" :href="project.github">Github</a>
+				<a v-if="project.link" :href="project.link">Live Project</a>
+				<a v-if="project.demo" style="cursor:pointer" @click="showPlayer = true">Demo</a>
+				<a v-if="project.download" :href="project.download">Download</a>
+				<a v-if="project.github" :href="project.github">Source</a>
 			</div>
 		</div>
 	</article>
@@ -44,7 +50,7 @@ article {
 	overflow: visible;
 	display: flex;
 	justify-content: center;
-	flex-direction: row-reverse;
+	flex-direction: column;
 	transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
 	padding: 2.5rem 0 1.75rem 0;
 	border-bottom: 5px solid rgba(0, 0, 0, 0.2);
@@ -54,6 +60,7 @@ article {
 	object-fit: cover;
 	border-radius: 4px;
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+	margin-bottom: 2rem;
 }
 
 .tech-logo {
@@ -66,6 +73,7 @@ article {
 	display: flex;
 	flex-direction: column;
 	position: relative;
+	padding-bottom: 2rem;
 }
 .link-container {
 	display: flex;
@@ -75,7 +83,7 @@ article {
 }
 .tech {
 	display: flex;
-	padding-bottom: 0.5rem;
+	padding-bottom: 1rem;
 }
 .vimeo-player-container {
 	position: fixed;

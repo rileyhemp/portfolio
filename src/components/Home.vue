@@ -4,7 +4,7 @@
 			<h1>Hello World</h1>
 			<h2>I'm a frontend developer for-hire</h2>
 			<p>
-				I love writing web apps that provide practical solutions to real&#8209;world problems with an emphasis on stability and usability.
+				I love writing web apps that provide practical solutions to real&#8209;world problems.
 			</p>
 		</header>
 		<div class="spacer" />
@@ -104,16 +104,6 @@ export default {
 					link: "http://animated-poster.web.app",
 					github: "https://github.com/rileyhemp/Animated_Poster"
 				}
-				// {
-				// 	name: "Gifted",
-				// 	description: "Schedule, track, and order gifts for friends' birthdays",
-				// 	image: "../img/project-images/gifted.png",
-				// 	about:
-				// 		"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
-				// 	tech: ["react", "styled"],
-				// 	link: "gift-scheduler.web.app",
-				// 	github: "https://github.com/rileyhemp/gift-scheduler"
-				// }
 			]
 		};
 	}
