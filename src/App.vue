@@ -1,13 +1,17 @@
 <template>
-	<div id="app">
-		<div class="outer-wrapper">
-			<div class="inner-wrapper">
+	<div id="app" class="outer-wrapper">
+		<div class="inner-wrapper">
+			<main class="main-container">
 				<nav>
-					<a href="mailto:rileyhemp@gmail.com">rileyhemp@gmail.com</a>
+					<ul>
+						<li><a>work</a></li>
+						<li><a>about</a></li>
+						<li><a href="mailto:rileyhemp@gmail.com">contact</a></li>
+					</ul>
 				</nav>
 				<home-page />
 				<about-page />
-			</div>
+			</main>
 		</div>
 	</div>
 </template>
@@ -22,6 +26,8 @@ export default {
 		"about-page": About
 	}
 };
+// 427
+// 2225
 </script>
 
 <style>
