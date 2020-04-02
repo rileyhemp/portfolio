@@ -16,9 +16,7 @@
 					<a :href="'https://github.com/rileyhemp'">Linked In</a>
 				</div>
 			</div>
-			<div class="image-container">
-				<img src="../../public/img/kat-and-riley.png" class="about-image" alt="Riley and Kat" />
-			</div>
+			<img src="../../public/img/kat-and-riley.png" class="about-image" alt="Riley and Kat" />
 		</article>
 	</section>
 </template>
@@ -49,8 +47,18 @@ section {
 	object-fit: cover;
 	border-radius: 4px;
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+	align-self: flex-start;
 }
 .spacer-about {
 	margin-bottom: 2rem;
+}
+@media screen and (min-width: 768px) {
+	.about {
+		flex-direction: row;
+	}
+	.about-image {
+		align-self: unset;
+		margin-left: 1rem;
+	}
 }
 </style>

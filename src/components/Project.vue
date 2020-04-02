@@ -56,8 +56,10 @@ article {
 	border-bottom: 5px solid rgba(0, 0, 0, 0.2);
 }
 .project-image {
-	max-width: 20rem;
+	width: 100%;
+	max-height: 20rem;
 	object-fit: cover;
+	object-position: 0 25%;
 	border-radius: 4px;
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 	margin-bottom: 2rem;
@@ -114,5 +116,17 @@ article {
 	justify-content: center;
 	align-items: center;
 	height: 80%;
+}
+@media screen and (min-width: 768px) {
+	article {
+		flex-direction: row-reverse;
+	}
+	.project-description {
+		padding-bottom: 0;
+	}
+	.project-image {
+		margin-bottom: 0;
+		max-width: 20rem;
+	}
 }
 </style>
