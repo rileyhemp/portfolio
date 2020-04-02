@@ -6,17 +6,20 @@
 					<a href="">rileyhemp@gmail.com</a>
 					<ul>
 						<li>
-							<a :class="projectsPage ? 'current' : null" @click="projectsPage = true" href="#">Projects</a>
+							<a :class="projectsPage ? 'current' : null" @click="projectsPage = true" href="/">Projects</a>
 						</li>
 						<li>
-							<a :class="projectsPage ? null : 'current'" @click="projectsPage = false" href="#">About</a>
+							<a :class="projectsPage ? null : 'current'" @click="projectsPage = false" href="/about">About</a>
 						</li>
 					</ul>
 				</nav>
 				<header>
 					<h1>Hello World</h1>
 					<h2>I'm a frontend developer for-hire</h2>
-					<p>I love writing web apps that provide practical solutions to real&#8209;world problems.</p>
+					<p>
+						I love writing web apps that provide practical solutions to real&#8209;world problems with an emphasis on stability and
+						usability.
+					</p>
 				</header>
 				<div class="spacer" />
 				<main>
@@ -44,7 +47,7 @@ export default {
 					description: "Spotify playlists on steroids",
 					image: "../img/project-images/run-bpm.png",
 					about:
-						"Run BPM leverages Spotify’s internal audio analysis tools to create custom playlists at specific tempos. This lets runners like myself choose music that's in sync with our desired steps-per-minute. You can also filter by other features, like energy level, accousticness, danceability and more. ",
+						"Run BPM leverages Spotify’s internal audio analysis tools to create custom playlists at specific tempos. This lets runners like myself choose music that's in sync with our desired steps-per-minute. You can also filter tracks by energy level, accousticness, danceability and more. ",
 					tech: ["vue", "node", "sql"],
 					timeline: "8 weeks",
 					link: "http://runbpm.app",
@@ -52,10 +55,10 @@ export default {
 				},
 				{
 					name: "Seasonal.cooking",
-					description: "A lightweight PWA for finding what's in season and what to eat with it",
+					description: "A lightweight PWA for finding what's in season and what to cook it with",
 					image: "../img/project-images/seasonal-cooking.png",
 					about:
-						"Even the best cooks forget what’s in season, and there aren’t any good, mobile-friendly sites to reference in store. Season.cooking presents data found in The Flavor Bible as a progressive web app for quick reference and offline viewing.",
+						"Even the best cooks forget what’s in season, and there aren't any good mobile sites to quickly reference while shopping. Seasonal.cooking presents this data and more as a progressive web app for quick reference and easy offline viewing.",
 					tech: ["react", "styled", "sass"],
 					collaborators: {
 						name: "Leah Hale",
@@ -71,7 +74,7 @@ export default {
 					description: "It's Google for Reddit",
 					image: "../img/project-images/snoogle.png",
 					about:
-						"I have a habbit of appending “site:reddit.com” to my google searches so I built Snoogle in React Native to do just that, with a few added features. First, it searches through 100 results and displays the most-commented posts first. Second, you can view results right in the app so there’s no need to toggle between your Reddit and Google clients.",
+						"Snoogle uses a custom Google search engine to discover self posts on Reddit and get answers fast. Built in React Native and runs on Android. Don't plan on releasing this one, but feel free to download the APK.",
 					tech: ["react-native", "node", "redux", "styled"],
 					link: "",
 					download: "https://elasticbeanstalk-us-east-2-652389813077.s3.us-east-2.amazonaws.com/snoogle.apk",
@@ -83,7 +86,7 @@ export default {
 					description: "Playable Javascript pinball simulator in HTML5 Canvas",
 					image: "../img/project-images/southpark-pinball.png",
 					about:
-						"I learned more from this project then any other. Previously, my Javascript had been very procedural, repetative, and just bad overall. This forced me to learn (and love) Javascript classes, and gain a deeper appreciation and understanding of OOP. ",
+						"Built using Phaser 3 and Matter.js, this project forced me to really understand how OOP works and how to write it. I cried a lot while building this.",
 					tech: ["phaser", "js", "html"],
 					link: "http://southpark-pinball.web.app",
 					github: "https://github.com/rileyhemp/Southpark-Pinball"
@@ -93,7 +96,7 @@ export default {
 					description: "Adventures in CSS grid",
 					image: "../img/project-images/cyberpunk.png",
 					about:
-						"Built out an amazing design from Jesus Lebarca with plain HTML and CSS. This static site relies heavily on CSS grid to handle the responsivness, and incorporates a number of GSAP animations. ",
+						"Found this site on Behance and just had to make it real. This project relies heavily on CSS grid to handle the responsivness, and incorporates a number of fun GSAP animations. ",
 					collaborators: {
 						name: "Jesus Lebarca",
 						role: "Designer",
@@ -110,7 +113,7 @@ export default {
 					description: "Vaporwave inspired animations with HTML and CSS.",
 					image: "../img/project-images/animated-poster.png",
 					about:
-						"Great Gatsby goes back to the future animated poster. Designed and built with only CSS, HTML and Javascript. Chugs pretty hard on a retina display, so be warned. ",
+						"Great Gatsby goes back to the future animated poster. Designed and built with only CSS, HTML and Javascript. May or may not chug on a retina display. ",
 					tech: ["html", "sass", "js"],
 					role: "Solo project",
 					timeline: "1 week",
