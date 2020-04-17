@@ -2,7 +2,7 @@
 	<div>
 		<header>
 			<h1>Hello World</h1>
-			<h2>I'm a frontend developer for-hire</h2>
+			<h2>I'm a frontend developer for hire</h2>
 			<p>
 				I love writing web apps that provide practical solutions to real&#8209;world problems.
 			</p>
@@ -21,7 +21,7 @@ import Project from "./Project.vue";
 export default {
 	name: "Home",
 	components: {
-		"dev-project": Project
+		"dev-project": Project,
 	},
 	data: function() {
 		return {
@@ -35,11 +35,11 @@ export default {
 					tech: ["vue", "node", "sql"],
 					timeline: "8 weeks",
 					link: "http://runbpm.app",
-					github: "https://github.com/rileyhemp/run-bpm"
+					github: "https://github.com/rileyhemp/run-bpm",
 				},
 				{
 					name: "Seasonal.cooking",
-					description: "A lightweight PWA for finding what's in season and what to cook it with",
+					description: "A lightweight PWA for finding what's in season and what to cook with it",
 					image: "../img/project-images/seasonal-cooking.png",
 					about:
 						"Even the best cooks forget what’s in season, and there aren't any good mobile sites to quickly reference while shopping. Seasonal.cooking presents this data and more as a progressive web app for quick reference and easy offline viewing.",
@@ -47,11 +47,11 @@ export default {
 					collaborators: {
 						name: "Leah Hale",
 						role: "Illustrations",
-						portfolio: ""
+						portfolio: "",
 					},
 					timeline: "4 weeks",
 					link: "http://seasonal-cooking-268018.web.app",
-					github: "https://github.com/rileyhemp/seasonal-cooking"
+					github: "https://github.com/rileyhemp/seasonal-cooking",
 				},
 				{
 					name: "Snoogle",
@@ -63,7 +63,7 @@ export default {
 					link: "",
 					download: "https://elasticbeanstalk-us-east-2-652389813077.s3.us-east-2.amazonaws.com/snoogle.apk",
 					demo: "403154292",
-					github: "https://github.com/rileyhemp/snoogle"
+					github: "https://github.com/rileyhemp/snoogle",
 				},
 				{
 					name: "South Park Pinball",
@@ -73,7 +73,7 @@ export default {
 						"Built using Phaser 3 and Matter.js, this project forced me to really understand how OOP works and how to write it. I cried a lot while building this.",
 					tech: ["phaser", "js", "html"],
 					link: "http://southpark-pinball.web.app",
-					github: "https://github.com/rileyhemp/Southpark-Pinball"
+					github: "https://github.com/rileyhemp/Southpark-Pinball",
 				},
 				{
 					name: "Cyberpunk 2077",
@@ -84,13 +84,13 @@ export default {
 					collaborators: {
 						name: "Jesus Lebarca",
 						role: "Designer",
-						portfolio: "https://www.behance.net/jesuslabarca"
+						portfolio: "https://www.behance.net/jesuslabarca",
 					},
 					role: "Developer",
 					timeline: "1 week",
 					tech: ["html", "sass", "js"],
 					link: "http://cyberpunk.web.app",
-					github: "https://github.com/rileyhemp/Cyberpunk_2077"
+					github: "https://github.com/rileyhemp/Cyberpunk_2077",
 				},
 				{
 					name: "Animated Poster",
@@ -102,10 +102,10 @@ export default {
 					role: "Solo project",
 					timeline: "1 week",
 					link: "http://animated-poster.web.app",
-					github: "https://github.com/rileyhemp/Animated_Poster"
-				}
-			]
+					github: "https://github.com/rileyhemp/Animated_Poster",
+				},
+			],
 		};
-	}
+	},
 };
 </script>
