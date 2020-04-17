@@ -9,7 +9,7 @@
 					I've been a copywriter, a door-to-door salesman, and played fiddle in a country band. I bake sourdough when I'm stressed, my
 					favorite beer is all of them, and I'm a champion of the oxford comma.
 				</p>
-				<p class="body-1">Currently living in Atlanta with my fiancée and dog. (He's a really good boy)</p>
+				<p class="body-1">Currently living in Atlanta with my fiancée and our dog. (He's a really good boy.)</p>
 			</div>
 			<img src="../../public/img/kat-and-riley.png" class="about-image" alt="Riley and Kat" />
 		</article>
@@ -18,7 +18,7 @@
 
 <script>
 export default {
-	name: "About"
+	name: "About",
 };
 </script>
 

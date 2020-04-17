@@ -21,7 +21,7 @@
 			<p class="body-1" v-if="project.collaborators">{{ project.collaborators.role + ": " + project.collaborators.name }}</p>
 
 			<div class="link-container">
-				<a v-if="project.link" :href="project.link">Live Project</a>
+				<a v-if="project.link" :href="project.link">View Project</a>
 				<a v-if="project.demo" style="cursor:pointer" @click="showPlayer = true">Demo</a>
 				<a v-if="project.download" :href="project.download">Download</a>
 				<a v-if="project.github" :href="project.github">Source</a>
@@ -38,10 +38,10 @@ export default {
 	data: function() {
 		return {
 			project: this.$attrs.project,
-			showPlayer: false
+			showPlayer: false,
 		};
 	},
-	methods: {}
+	methods: {},
 };
 </script>
 
