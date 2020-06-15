@@ -1,9 +1,5 @@
 <template>
 	<article>
-		<div v-if="project.demo && showPlayer" class="vimeo-player-container">
-			<button class="close-player" @click="showPlayer = false">X</button>
-			<vimeo-player class="vimeo-player" :video-id="project.demo" :player-height="650"></vimeo-player>
-		</div>
 		<img class="project-image" :src="project.image" :alt="project.name" />
 		<div class="project-description">
 			<h3>{{ project.name }}</h3>
@@ -21,20 +17,18 @@
 			<p class="body-1" v-if="project.collaborators">{{ project.collaborators.role + ": " + project.collaborators.name }}</p>
 
 			<div class="link-container">
-				<a v-if="project.link" :href="project.link">View Project</a>
-				<a v-if="project.demo" style="cursor:pointer" @click="showPlayer = true">Demo</a>
-				<a v-if="project.download" :href="project.download">Download</a>
-				<a v-if="project.github" :href="project.github">Source</a>
+				<a v-if="project.link" :href="project.link" target="_blank">View Project</a>
+				<a v-if="project.demo" :href="project.demo" target="_blank">Demo</a>
+				<a v-if="project.download" :href="project.download" target="_blank">Download</a>
+				<a v-if="project.github" :href="project.github" target="_blank">Source</a>
 			</div>
 		</div>
 	</article>
 </template>
 
 <script>
-import { vueVimeoPlayer } from "vue-vimeo-player";
 export default {
 	name: "Project",
-	components: { "vimeo-player": vueVimeoPlayer },
 	data: function() {
 		return {
 			project: this.$attrs.project,
