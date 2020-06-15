@@ -41,7 +41,8 @@ export default {
 					name: "Cyberpunk 2077",
 					description: "Landing page redesign for CD Projekt Red's latest release",
 					image: "../img/project-images/cyberpunk.png",
-					about: "This project relies heavily on CSS grid to handle the responsiveness, and incorporates a number of fun GSAP animations.",
+					about:
+						"This project relies heavily on CSS grid to handle the responsiveness, and incorporates a number of tasteful GSAP animations.",
 					collaborators: {
 						name: "Jesus Lebarca",
 						role: "Designer",
@@ -55,10 +56,10 @@ export default {
 				},
 				{
 					name: "South Park Pinball",
-					description: "Realistic Javascript pinball simulator with Matter.js and Phaser 3",
+					description: "Realistic JavaScript pinball simulator with Matter.js and Phaser 3",
 					image: "../img/project-images/southpark-pinball.png",
 					about:
-						"With over 200 hours invested, this project features hyper-realistic physics, realistic graphics, and a level of complexity that really forced me to learn and adopt JavaScript classes and inheritance. I hope you'll take a look at the source code, it's some of the dryest i've ever written.",
+						"With over 200 hours invested, this project features highly realistic physics and graphics. The level of complexity was such that this project really forced me to learn and adopt JavaScript classes and inheritance.",
 					tech: ["phaser", "js", "html"],
 					link: "http://southpark-pinball.web.app",
 					github: "https://github.com/rileyhemp/Southpark-Pinball",
@@ -68,7 +69,7 @@ export default {
 					description: "A lightweight PWA for finding what's in season",
 					image: "../img/project-images/uncharted-garden.png",
 					about:
-						"Even the best cooks forget what’s in season, and there aren't any good mobile sites to quickly reference while shopping. Uncharted Garen presents this data and more as a progressive web app for quick reference.",
+						"Even the best cooks forget what’s in season, and even then, maybe they aren't sure what to do with it. Uncharted Garen presents this data and more as a progressive web app for quick reference.",
 					tech: ["react", "styled", "sass"],
 					collaborators: {
 						name: "Leah Hale",
@@ -81,10 +82,10 @@ export default {
 				},
 				{
 					name: "Animated Poster",
-					description: "Vaporwave inspired poster, build entirely with code",
+					description: "Vaporwave inspired poster, built entirely with code",
 					image: "../img/project-images/animated-poster.png",
 					about:
-						"Great Gatsby goes back to the future in this animated poster. Open it up and click around, it does things! Click the ground a couple times and watch the car speed up, turn off the headlights, or try clicking on the sun.",
+						"Great Gatsby goes back to the future in this interactive poster. Open it up and click around, it does things! Click the ground a couple times and watch the car speed up, turn off the headlights, or try clicking on the sun.",
 					tech: ["html", "sass", "js"],
 					role: "Solo project",
 					timeline: "1 week",
@@ -96,8 +97,8 @@ export default {
 					description: "Concept app for buying and scheduling gifts for family and friends",
 					image: "../img/project-images/gifted.png",
 					about:
-						"This project was a great exercise in not hard-coding data. All the information is fed from a central JSON object and pulled into each component.",
-					tech: ["react", "sass", "js"],
+						"This project was a great exercise in not hard-coding data. All the information is fed from a central object and pulled into each component.",
+					tech: ["react", "sass", "js", "styled"],
 					collaborators: {
 						name: "Laura Finelli",
 						role: "Designer",
@@ -113,7 +114,7 @@ export default {
 					image: "../img/project-images/snoogle.png",
 					about:
 						"Snoogle uses a custom Google search engine to search Reddit and get answers fast. Built in React Native, it sorts the top 100 google results by comments, returning the most active posts first, something Google does not currently do.",
-					tech: ["react-native", "node", "redux", "styled"],
+					tech: ["react-native", "node", "redux", "styled", "sass"],
 					link: "",
 					download: "https://elasticbeanstalk-us-east-2-652389813077.s3.us-east-2.amazonaws.com/snoogle.apk",
 					demo: "https://vimeo.com/403154292",

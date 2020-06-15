@@ -6,20 +6,17 @@
 					<ul>
 						<!-- <li><a @click="() => this.scrollWork()">work</a></li> -->
 						<li><a @click="() => this.scrollAbout()">about</a></li>
-						<li><a href="mailto:rileyhemp@gmail.com">contact</a></li>
-					</ul>
-					<h4>Riley Hemphill – Developer</h4>
-				</nav>
-				<home-page />
-				<about-page />
-				<footer>
-					<ul>
 						<li>
 							<a target="_blank" :href="'https://drive.google.com/file/d/1qT-4eipWMavR3LVrgwmbeJsgX9p9TqJc/view?usp=sharing'">Resume</a>
 						</li>
 						<li><a target="_blank" :href="'https://github.com/rileyhemp'">Github</a></li>
 						<li><a target="_blank" :href="'https://www.linkedin.com/in/riley-hemphill-650924103/'">Linked In</a></li>
 					</ul>
+					<h4>Riley Hemphill – Developer</h4>
+				</nav>
+				<home-page />
+				<about-page />
+				<footer>
 					<a @click="() => this.scrollHome()">Back to top</a>
 				</footer>
 			</main>
